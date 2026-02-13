@@ -5,6 +5,7 @@ count = len(sys.argv)
 if count <= 2:
     print('none')
 else:
-    for i in range(1, count):
+    print()
+    for i in range(count-1, 0, -1):
         print(sys.argv[i])
 
